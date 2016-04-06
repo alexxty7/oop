@@ -8,4 +8,16 @@ class Reader
     @street = street
     @house = house
   end
+
+  def to_s
+  	"Reader: #{@name} / #{@email}"
+  end
+
+  def ==(other)
+    if other.is_a? Reader
+      @name == other.name && @email == other.email
+    else
+      false
+    end
+  end
 end

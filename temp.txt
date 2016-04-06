@@ -1,0 +1,168 @@
+--- !ruby/object:Library
+books:
+- &1 !ruby/object:Book
+  title: Dark Tower 41
+  author: &21 !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &2 !ruby/object:Book
+  title: Dark Tower 42
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &3 !ruby/object:Book
+  title: Dark Tower 43
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &4 !ruby/object:Book
+  title: Dark Tower 44
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &5 !ruby/object:Book
+  title: Dark Tower 45
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &6 !ruby/object:Book
+  title: Dark Tower 46
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &7 !ruby/object:Book
+  title: Dark Tower 47
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &8 !ruby/object:Book
+  title: Dark Tower 48
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &9 !ruby/object:Book
+  title: Dark Tower 49
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+- &10 !ruby/object:Book
+  title: Dark Tower 50
+  author: !ruby/object:Author
+    name: Stiven King
+    biography: Lorem ipsum dolor sit amet.
+orders:
+- !ruby/object:Order
+  book: *1
+  reader: &11 !ruby/object:Reader
+    name: Reader 41
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784161179 +03:00
+- !ruby/object:Order
+  book: *2
+  reader: &12 !ruby/object:Reader
+    name: Reader 42
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784171561 +03:00
+- !ruby/object:Order
+  book: *3
+  reader: &13 !ruby/object:Reader
+    name: Reader 43
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784177513 +03:00
+- !ruby/object:Order
+  book: *4
+  reader: &14 !ruby/object:Reader
+    name: Reader 44
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784184505 +03:00
+- !ruby/object:Order
+  book: *5
+  reader: &15 !ruby/object:Reader
+    name: Reader 45
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784191602 +03:00
+- !ruby/object:Order
+  book: *6
+  reader: &16 !ruby/object:Reader
+    name: Reader 46
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784199377 +03:00
+- !ruby/object:Order
+  book: *7
+  reader: &17 !ruby/object:Reader
+    name: Reader 47
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784207744 +03:00
+- !ruby/object:Order
+  book: *8
+  reader: &18 !ruby/object:Reader
+    name: Reader 48
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784216664 +03:00
+- !ruby/object:Order
+  book: *9
+  reader: &19 !ruby/object:Reader
+    name: Reader 49
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784226270 +03:00
+- !ruby/object:Order
+  book: *10
+  reader: &20 !ruby/object:Reader
+    name: Reader 50
+    email: test@test.ru
+    city: Some sity
+    street: Some street
+    house: Some house
+  date: 2016-04-06 16:56:59.784236643 +03:00
+- !ruby/object:Order
+  book: *1
+  reader: *11
+  date: 2016-04-06 16:56:59.784240459 +03:00
+- !ruby/object:Order
+  book: *2
+  reader: *12
+  date: 2016-04-06 16:56:59.784243783 +03:00
+- !ruby/object:Order
+  book: *3
+  reader: *13
+  date: 2016-04-06 16:56:59.784247734 +03:00
+readers:
+- *11
+- *12
+- *13
+- *14
+- *15
+- *16
+- *17
+- *18
+- *19
+- *20
+authors:
+- *21
