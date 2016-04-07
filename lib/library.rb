@@ -63,7 +63,7 @@ class Library
   private
 
   def sort_and_count(item)
-    item.each_with_object(Hash.new(0)) { |key, hash| hash[key] +=1; hash }
+    item.each_with_object(Hash.new(0)) { |key, hash| hash[key] +=1 }
         .sort_by { |_book, value| value }.last[0]
   end
 end
