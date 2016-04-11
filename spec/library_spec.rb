@@ -74,6 +74,7 @@ RSpec.describe Library do
 
   describe '#save_to_file and .load_from_file' do
     it 'save library to file and load from' do
+      allow(library).to receive(:puts)
     	library_data
       library.save_to_file
 
